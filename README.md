@@ -25,13 +25,12 @@ in the initial data preparation phase we performed the following tasks:
 
 ### Result/Key Findings/Insight
 the analysis results are summarized as folows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season
-2. product category A is the best performing category in terms of sales and revenue
-3. customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+1. The phone number entries varied in format, showing no standard way of input.
+2. Some customers submitted the form multiple times with the same contact information.
+3. The last name field had different punctuation marks, causing inconsistencies in the data.
 
 ## Reccomendation:
-based on the anlysis, we recommend the following actions:
-- invest in marketing and promotion during peak sales seasons 
-to maximize revenue.
-- focus on expanding and promoting products in category A.
-- Implement a customer segmentation strategy to target high-LTV customer effectively.
+based on the analysis, we recommend the following actions:
+- Update the questionnaire to disallow any punctuation marks in the last and first name field, ensuring cleaner and more consistent data collection.
+- Introduce a validation check to prevent customers from submitting the form again if their contact information matches an existing entry.
+- Implement a clear format for phone numbers in the questionnaire, such as "(XXX) XXX-XXXX," and provide examples to ensure uniformity.
