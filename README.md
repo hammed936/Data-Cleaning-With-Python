@@ -20,30 +20,35 @@ The primary dataset for this project, titled "Customer Call List.xlsx," contains
 
 ### Data Cleaning
 in the initial data preparation phase we performed the following tasks:
-1. data loading and inspection
 
-![Screenshot (001)](https://github.com/user-attachments/assets/da0cefcc-59b2-4a5c-a8ae-4e360f746bca)
+**1. loading and inspect the data**
 
-2. Checking duplicates and missing values.
+      ![Screenshot (001)](https://github.com/user-attachments/assets/da0cefcc-59b2-4a5c-a8ae-4e360f746bca)
+
+**2. Checking if there is Duplicate entries or Missing Values.**
    
-![Screenshot (002)](https://github.com/user-attachments/assets/61dee2ec-d003-4d52-affb-02f334624c12)
+      ![Screenshot (002)](https://github.com/user-attachments/assets/61dee2ec-d003-4d52-affb-02f334624c12)
 
-4.
-![Screenshot (003)](https://github.com/user-attachments/assets/32b26f44-cbf1-4cac-ae40-e880760a61db)
-
-5.
-![Screenshot (004)](https://github.com/user-attachments/assets/3c75c4dc-13ba-4a2d-8148-0a06af3833c2)
-
-6.
-![Screenshot (005)](https://github.com/user-attachments/assets/8e510ae7-bbf3-4fd4-b8af-677aa74978f4)
-
-7.
-![Screenshot (006)](https://github.com/user-attachments/assets/a2b978e9-f831-4ce0-ba95-c6034a011ab2)
-
-8.
-![Screenshot (008)](https://github.com/user-attachments/assets/4ec5e59d-3e65-4380-8fa0-0862d4edb02a)
+**3. Dropping rows with missing values and a column that is not useful.**
    
-9. handling missing values
+      ![Screenshot (003)](https://github.com/user-attachments/assets/32b26f44-cbf1-4cac-ae40-e880760a61db)
+
+**4. fixing typos to ensure consistent formatting.**
+   
+      ![Screenshot (004)](https://github.com/user-attachments/assets/3c75c4dc-13ba-4a2d-8148-0a06af3833c2)
+  
+**5. Using For Loop to drop rows with 'Yes' as their entries in the 'Do_NotContact' column.**
+   
+      ![Screenshot (005)](https://github.com/user-attachments/assets/8e510ae7-bbf3-4fd4-b8af-677aa74978f4)
+
+**6. Reseting index and handling missing values.**
+   
+      ![Screenshot (006)](https://github.com/user-attachments/assets/a2b978e9-f831-4ce0-ba95-c6034a011ab2)
+
+**7. standardizing the 'Phone_Number' column using anonymous function.**
+   
+      ![Screenshot (008)](https://github.com/user-attachments/assets/4ec5e59d-3e65-4380-8fa0-0862d4edb02a)
+    
 
 ### Result/Key Findings/Insight
 the analysis results are summarized as folows:
